@@ -1,0 +1,12 @@
+sample:
+  name: Mini-XML basic example
+  description: Parse an XML string with the Mini-XML Zephyr module
+tests:
+  sample.modules.mxml.basic:
+    tags:
+      - mxml
+      - xml
+    platform_allow:
+      - native_sim
+      - qemu_cortex_m3
+

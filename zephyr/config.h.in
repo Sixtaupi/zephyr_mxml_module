@@ -1,0 +1,12 @@
+// Configuration file for Mini-XML on Zephyr.
+//
+// SPDX-License-Identifier: Apache-2.0
+
+#ifndef MXML_CONFIG_H
+#  define MXML_CONFIG_H
+
+#  define MXML_VERSION "@MXML_VERSION@"
+
+#cmakedefine HAVE_PTHREAD_H 1
+
+#endif // !MXML_CONFIG_H
